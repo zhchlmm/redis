@@ -8,29 +8,27 @@ Redis 命令参考
 
 .. include:: intro.include
 
-.. include:: course.include
+.. include:: tdir.include
 
 命令目录(使用 CTRL + F 快速查找)：
 --------------------------------------
 
-+-------------------+-----------------------+-------------------+-----------------------+
-| .. toctree::      | .. toctree::          | .. toctree::      | .. toctree::          |
-|   :maxdepth: 2    |    :maxdepth: 2       |    :maxdepth: 2   |    :maxdepth: 2       |
-|                   |                       |                   |                       |
-|   key/index       |    string/index       |    hash/index     |    list/index         |
-+-------------------+-----------------------+-------------------+-----------------------+
-| .. toctree::      | .. toctree::          | .. toctree::      | .. toctree::          |
-|   :maxdepth: 2    |    :maxdepth: 2       |    :maxdepth: 2   |    :maxdepth: 2       |
-|                   |                       |                   |                       |
-|   set/index       |    sorted_set/index   |    pub_sub/index  |    transaction/index  |
-+-------------------+-----------------------+-------------------+-----------------------+
-| .. toctree::      | .. toctree::          | .. toctree::                              |
-|   :maxdepth: 2    |    :maxdepth: 2       |    :maxdepth: 2                           |
-|                   |                       |                                           |
-|   script/index    |    connection/index   |    server/index                           |
-+-------------------+-----------------------+-------------------+-----------------------+
-
-.. include:: tdir.include
++-----------------------+-----------------------+-----------------------+-----------------------+
+| .. toctree::          | .. toctree::          | .. toctree::          | .. toctree::          |
+|   :maxdepth: 2        |    :maxdepth: 2       |    :maxdepth: 2       |    :maxdepth: 2       |
+|                       |                       |                       |                       |
+|   key/index           |    string/index       |    hash/index         |    list/index         |
++-----------------------+-----------------------+-----------------------+-----------------------+
+| .. toctree::          | .. toctree::          | .. toctree::          | .. toctree::          |
+|   :maxdepth: 2        |    :maxdepth: 2       |    :maxdepth: 2       |    :maxdepth: 2       |
+|                       |                       |                       |                       |
+|   set/index           |    sorted_set/index   |    hyperloglog/index  |    pub_sub/index      |
++-----------------------+-----------------------+-----------------------+-----------------------+
+| .. toctree::          | .. toctree::          | .. toctree::          | .. toctree::          |
+|    :maxdepth: 2       |   :maxdepth: 2        |    :maxdepth: 2       |    :maxdepth: 2       |
+|                       |                       |                       |                       |
+|    transaction/index  |   script/index        |    connection/index   |    server/index       |
++-----------------------+-----------------------+-----------------------+-----------------------+
 
 文档
 -------------------
